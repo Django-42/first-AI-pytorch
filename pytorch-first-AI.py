@@ -47,4 +47,4 @@ for i in range(100):
     optimizer = optim.SGD(netz.parameters(), lr=0.10)
     optimizer.step()
     
-#torch.save(netz, 'meinNetz.pt')
+#torch.save(netz, 'meinNetz.pt') if network is ready to save
