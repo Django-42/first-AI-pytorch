@@ -7,7 +7,7 @@ from torch.autograd import Variable
 import torch.optim as optim
 import os
 
-class MeinNetz(nn.Module):
+class MeinNetz(nn.Module): #eigentliches Netz
     def __init__(self):
         super(MeinNetz, self).__init__()
         self.lin1 = nn.Linear(10, 10)
